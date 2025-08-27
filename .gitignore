@@ -1,0 +1,387 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+build/
+DerivedData/
+*.moved-aside
+*.xccheckout
+*.xcworkspace/xcuserdata/
+
+## Xcode Patch
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+## compatibility with Xcode 2 and earlier (ignoring not required starting Xcode 3)
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Gcc Patch
+/*.gcno
+*/src/*/
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+# *.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+.build/
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+# Pods/
+#
+# Add this line if you want to avoid checking in source code from the CocoaPods repo.
+# Packages/
+# Package.pins
+# Package.resolved
+# *.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
+# Carthage
+#
+# Add this line if you want to ignore the Carthage Checkouts folder.
+# Carthage/Checkouts/
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+# fastlane specific
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+#
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/iOSInjectionProject
+iOSInjectionProject/
+
+# Xcode Server
+#
+# This file is created by Xcode Server.
+*.xcrequiredplugins
+
+# macOS
+#
+# macOS custom attributes applied to a folder by Finder.
+.DS_Store
+
+# SwiftLint
+.swiftlint.yml
+
+# SwiftFormat
+.swiftformat
+
+# Xcode
+*.swp
+*.lock
+*.tmp
+*~
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# API Keys and secrets (should never be committed)
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+secrets.json
+config.json
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+
+# Package Manager
+Package.resolved
+.pins
+
+# Swift Package Manager
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+
+# Testing
+Coverage.profdata
+
+# Playgrounds
+timeline.xctimeline
+
+# Swift Package Manager - Xcode
+.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
+# Localization
+*.strings
+*.stringsdict
+
+# Archives
+*.xcarchive
+
+# Simulator
+*.simulator
+
+# Test artifacts
+*.xctest
+test_output/
+
+# SwiftGen
+Generated/
+
+# R.swift
+R.generated.swift
+
+# Sourcery
+*.generated.swift
+
+# SwiftLint cache
+.swiftlint_cache
+
+# Firebase
+GoogleService-Info.plist
+firebase-debug.log
+
+# Crashlytics
+Crashlytics/
+Fabric/
+
+# App Store Connect
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Backup files
+*.bak
+*.backup
+*.orig
+*.swp
+*.swo
+
+# Temporary Xcode files
+*.xccheckout
+*.xcscmblueprint
+
+# SwiftUI Previews
+Preview Content/
+
+# Swift Package Collection
+PackageCollection.json
+
+# Xcode Cloud
+.xcodeproj/xcshareddata/xcuserdata/
+.xcworkspace/xcshareddata/xcuserdata/
+
+# Swift Playgrounds
+*.playground/Contents.swift
+
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcworkspace/xcuserdata/
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+# *.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+.build/
+
+# CocoaPods - Uncomment the next line to avoid checking in source code from the CocoaPods repo.
+# Pods/
+# Package.pins
+# Package.resolved
+# *.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
+# Carthage - Uncomment the next line to avoid checking in source code from Carthage Checkouts folder.
+# Carthage/Checkouts/
+
+# fastlane - A streamlined workflow tool for Cocoa deployment
+# It is recommended to not store the screenshots in the git repo.
+# Comment out or remove the next line if you want to check in screenshots.
+fastlane/screenshots/**/*.png
+# It is recommended to remove the following line if you want to check in the fastlane configuration.
+fastlane/Appfile
+
+# Code Injection - For more information see https://github.com/johnno1962/iOSInjectionProject
+iOSInjectionProject/
+
+# Xcode Server - For more information see https://developer.apple.com/go/?id=xcode-server
+*.xcrequiredplugins
+
+# macOS - This file is created by Finder and should be ignored.
+.DS_Store
+
+# Temporary files - These are created by various tools and should be ignored.
+*.log
+*.tmp
+*.temp
+*.cache
+*.swp
+*.lock
+
+# Environment and configuration files that may contain sensitive data
+.env
+.env.local
+.env.development
+.env.production
+config.json
+secrets.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+
+# Swift specific
+.swiftlint.yml
+.swiftformat
+.swiftlint_cache
+
+# Testing
+Coverage.profdata
+test_output/
+
+# Localization
+*.strings
+*.stringsdict
+
+# Archives and distribution
+*.xcarchive
+*.ipa
+
+# Simulator
+*.simulator
+
+# Test artifacts
+*.xctest
+
+# Generated code
+Generated/
+*.generated.swift
+R.generated.swift
+
+# Firebase
+GoogleService-Info.plist
+firebase-debug.log
+
+# Crashlytics
+Crashlytics/
+Fabric/
+
+# App Store Connect
+*.dSYM.zip
+*.dSYM
+
+# Backup and temporary files
+*.bak
+*.backup
+*.orig
+*.swp
+*.swo
+
+# SwiftUI Previews
+Preview Content/
+
+# Package Manager
+Package.resolved
+.pins
+Packages/
+
+# Swift Package Collection
+PackageCollection.json
+
+# Xcode Cloud and CI
+.xcodeproj/xcshareddata/xcuserdata/
+.xcworkspace/xcshareddata/xcuserdata/
+
+# Playgrounds
+*.playground/Contents.swift
+
+# Temporary Xcode files
+*.xccheckout
+*.xcscmblueprint
+
+# SwiftLint
+.swiftlint_cache
+
+# Sourcery
+*.generated.swift

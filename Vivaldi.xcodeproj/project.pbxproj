@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D02EF2C02E4D77B200CEFEEC /* VivaldiAPIClient in Frameworks */ = {isa = PBXBuildFile; productRef = D02EF2BF2E4D77B200CEFEEC /* VivaldiAPIClient */; };
+		D02EF2CD2E4D7D3C00CEFEEC /* VivaldiDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = D02EF2CC2E4D7D3C00CEFEEC /* VivaldiDesignSystem */; };
+		D02EF2D02E4D7D4500CEFEEC /* VivaldiPersistence in Frameworks */ = {isa = PBXBuildFile; productRef = D02EF2CF2E4D7D4500CEFEEC /* VivaldiPersistence */; };
+		D07543752E4DBEFD006875FA /* VivaldiModels in Frameworks */ = {isa = PBXBuildFile; productRef = D07543742E4DBEFD006875FA /* VivaldiModels */; };
+		D07543782E4DBF0A006875FA /* VivaldiPersistence in Frameworks */ = {isa = PBXBuildFile; productRef = D07543772E4DBF0A006875FA /* VivaldiPersistence */; };
+		D075437B2E4DBF14006875FA /* VivaldiAPIClient in Frameworks */ = {isa = PBXBuildFile; productRef = D075437A2E4DBF14006875FA /* VivaldiAPIClient */; };
+		D075437E2E4DBF20006875FA /* VivaldiDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = D075437D2E4DBF20006875FA /* VivaldiDesignSystem */; };
+		D0D555A12E50058800008D4B /* VivaldiAPIClient in Frameworks */ = {isa = PBXBuildFile; productRef = D0D555A02E50058800008D4B /* VivaldiAPIClient */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0E34EC72E4D56AE00AB5277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E34EB02E4D56AC00AB5277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E34EB72E4D56AD00AB5277;
+			remoteInfo = Vivaldi;
+		};
+		D0E34ED12E4D56AE00AB5277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E34EB02E4D56AC00AB5277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E34EB72E4D56AD00AB5277;
+			remoteInfo = Vivaldi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0E34EB82E4D56AD00AB5277 /* Vivaldi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vivaldi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E34EC62E4D56AE00AB5277 /* VivaldiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VivaldiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E34ED02E4D56AE00AB5277 /* VivaldiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VivaldiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D0D555B02E51987000008D4B /* Exceptions for "Vivaldi" folder in "Vivaldi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D0E34EB72E4D56AD00AB5277 /* Vivaldi */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D0E34EBA2E4D56AD00AB5277 /* Vivaldi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D0D555B02E51987000008D4B /* Exceptions for "Vivaldi" folder in "Vivaldi" target */,
+			);
+			path = Vivaldi;
+			sourceTree = "<group>";
+		};
+		D0E34EC92E4D56AE00AB5277 /* VivaldiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VivaldiTests;
+			sourceTree = "<group>";
+		};
+		D0E34ED32E4D56AE00AB5277 /* VivaldiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VivaldiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0E34EB52E4D56AD00AB5277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D555A12E50058800008D4B /* VivaldiAPIClient in Frameworks */,
+				D07543752E4DBEFD006875FA /* VivaldiModels in Frameworks */,
+				D07543782E4DBF0A006875FA /* VivaldiPersistence in Frameworks */,
+				D075437E2E4DBF20006875FA /* VivaldiDesignSystem in Frameworks */,
+				D075437B2E4DBF14006875FA /* VivaldiAPIClient in Frameworks */,
+				D02EF2C02E4D77B200CEFEEC /* VivaldiAPIClient in Frameworks */,
+				D02EF2D02E4D7D4500CEFEEC /* VivaldiPersistence in Frameworks */,
+				D02EF2CD2E4D7D3C00CEFEEC /* VivaldiDesignSystem in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E34EC32E4D56AE00AB5277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E34ECD2E4D56AE00AB5277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0D5559C2E5004C400008D4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0E34EAF2E4D56AC00AB5277 = {
+			isa = PBXGroup;
+			children = (
+				D0E34EBA2E4D56AD00AB5277 /* Vivaldi */,
+				D0E34EC92E4D56AE00AB5277 /* VivaldiTests */,
+				D0E34ED32E4D56AE00AB5277 /* VivaldiUITests */,
+				D0D5559C2E5004C400008D4B /* Frameworks */,
+				D0E34EB92E4D56AD00AB5277 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E34EB92E4D56AD00AB5277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0E34EB82E4D56AD00AB5277 /* Vivaldi.app */,
+				D0E34EC62E4D56AE00AB5277 /* VivaldiTests.xctest */,
+				D0E34ED02E4D56AE00AB5277 /* VivaldiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0E34EB72E4D56AD00AB5277 /* Vivaldi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E34EDA2E4D56AE00AB5277 /* Build configuration list for PBXNativeTarget "Vivaldi" */;
+			buildPhases = (
+				D0E34EB42E4D56AD00AB5277 /* Sources */,
+				D0E34EB52E4D56AD00AB5277 /* Frameworks */,
+				D0E34EB62E4D56AD00AB5277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D0E34EBA2E4D56AD00AB5277 /* Vivaldi */,
+			);
+			name = Vivaldi;
+			packageProductDependencies = (
+				D02EF2BF2E4D77B200CEFEEC /* VivaldiAPIClient */,
+				D02EF2CC2E4D7D3C00CEFEEC /* VivaldiDesignSystem */,
+				D02EF2CF2E4D7D4500CEFEEC /* VivaldiPersistence */,
+				D07543742E4DBEFD006875FA /* VivaldiModels */,
+				D07543772E4DBF0A006875FA /* VivaldiPersistence */,
+				D075437A2E4DBF14006875FA /* VivaldiAPIClient */,
+				D075437D2E4DBF20006875FA /* VivaldiDesignSystem */,
+				D0D555A02E50058800008D4B /* VivaldiAPIClient */,
+			);
+			productName = Vivaldi;
+			productReference = D0E34EB82E4D56AD00AB5277 /* Vivaldi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0E34EC52E4D56AE00AB5277 /* VivaldiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E34EDD2E4D56AE00AB5277 /* Build configuration list for PBXNativeTarget "VivaldiTests" */;
+			buildPhases = (
+				D0E34EC22E4D56AE00AB5277 /* Sources */,
+				D0E34EC32E4D56AE00AB5277 /* Frameworks */,
+				D0E34EC42E4D56AE00AB5277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E34EC82E4D56AE00AB5277 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D0E34EC92E4D56AE00AB5277 /* VivaldiTests */,
+			);
+			name = VivaldiTests;
+			packageProductDependencies = (
+			);
+			productName = VivaldiTests;
+			productReference = D0E34EC62E4D56AE00AB5277 /* VivaldiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0E34ECF2E4D56AE00AB5277 /* VivaldiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E34EE02E4D56AE00AB5277 /* Build configuration list for PBXNativeTarget "VivaldiUITests" */;
+			buildPhases = (
+				D0E34ECC2E4D56AE00AB5277 /* Sources */,
+				D0E34ECD2E4D56AE00AB5277 /* Frameworks */,
+				D0E34ECE2E4D56AE00AB5277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E34ED22E4D56AE00AB5277 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D0E34ED32E4D56AE00AB5277 /* VivaldiUITests */,
+			);
+			name = VivaldiUITests;
+			packageProductDependencies = (
+			);
+			productName = VivaldiUITests;
+			productReference = D0E34ED02E4D56AE00AB5277 /* VivaldiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0E34EB02E4D56AC00AB5277 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					D0E34EB72E4D56AD00AB5277 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					D0E34EC52E4D56AE00AB5277 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = D0E34EB72E4D56AD00AB5277;
+					};
+					D0E34ECF2E4D56AE00AB5277 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = D0E34EB72E4D56AD00AB5277;
+					};
+				};
+			};
+			buildConfigurationList = D0E34EB32E4D56AC00AB5277 /* Build configuration list for PBXProject "Vivaldi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0E34EAF2E4D56AC00AB5277;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D07543732E4DBEFD006875FA /* XCLocalSwiftPackageReference "VivaldiModels" */,
+				D07543762E4DBF0A006875FA /* XCLocalSwiftPackageReference "VivaldiPersistence" */,
+				D075437C2E4DBF20006875FA /* XCLocalSwiftPackageReference "VivaldiDesignSystem" */,
+				D0D5559F2E50058800008D4B /* XCLocalSwiftPackageReference "VivaldiAPIClient" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D0E34EB92E4D56AD00AB5277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E34EB72E4D56AD00AB5277 /* Vivaldi */,
+				D0E34EC52E4D56AE00AB5277 /* VivaldiTests */,
+				D0E34ECF2E4D56AE00AB5277 /* VivaldiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0E34EB62E4D56AD00AB5277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E34EC42E4D56AE00AB5277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E34ECE2E4D56AE00AB5277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E34EB42E4D56AD00AB5277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E34EC22E4D56AE00AB5277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E34ECC2E4D56AE00AB5277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0E34EC82E4D56AE00AB5277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E34EB72E4D56AD00AB5277 /* Vivaldi */;
+			targetProxy = D0E34EC72E4D56AE00AB5277 /* PBXContainerItemProxy */;
+		};
+		D0E34ED22E4D56AE00AB5277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E34EB72E4D56AD00AB5277 /* Vivaldi */;
+			targetProxy = D0E34ED12E4D56AE00AB5277 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0E34ED82E4D56AE00AB5277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ZA946472X6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0E34ED92E4D56AE00AB5277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZA946472X6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D0E34EDB2E4D56AE00AB5277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Vivaldi/Vivaldi.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZA946472X6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vivaldi/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To provide accurate weather info, we need your location";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weather.Vivaldi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		D0E34EDC2E4D56AE00AB5277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Vivaldi/Vivaldi.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZA946472X6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vivaldi/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To provide accurate weather info, we need your location";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weather.Vivaldi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+		D0E34EDE2E4D56AE00AB5277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZA946472X6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weather.VivaldiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vivaldi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vivaldi";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		D0E34EDF2E4D56AE00AB5277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZA946472X6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weather.VivaldiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vivaldi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vivaldi";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+		D0E34EE12E4D56AE00AB5277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZA946472X6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weather.VivaldiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = Vivaldi;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		D0E34EE22E4D56AE00AB5277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZA946472X6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weather.VivaldiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = Vivaldi;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0E34EB32E4D56AC00AB5277 /* Build configuration list for PBXProject "Vivaldi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E34ED82E4D56AE00AB5277 /* Debug */,
+				D0E34ED92E4D56AE00AB5277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E34EDA2E4D56AE00AB5277 /* Build configuration list for PBXNativeTarget "Vivaldi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E34EDB2E4D56AE00AB5277 /* Debug */,
+				D0E34EDC2E4D56AE00AB5277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E34EDD2E4D56AE00AB5277 /* Build configuration list for PBXNativeTarget "VivaldiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E34EDE2E4D56AE00AB5277 /* Debug */,
+				D0E34EDF2E4D56AE00AB5277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E34EE02E4D56AE00AB5277 /* Build configuration list for PBXNativeTarget "VivaldiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E34EE12E4D56AE00AB5277 /* Debug */,
+				D0E34EE22E4D56AE00AB5277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D07543732E4DBEFD006875FA /* XCLocalSwiftPackageReference "VivaldiModels" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = VivaldiModels;
+		};
+		D07543762E4DBF0A006875FA /* XCLocalSwiftPackageReference "VivaldiPersistence" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = VivaldiPersistence;
+		};
+		D075437C2E4DBF20006875FA /* XCLocalSwiftPackageReference "VivaldiDesignSystem" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = VivaldiDesignSystem;
+		};
+		D0D5559F2E50058800008D4B /* XCLocalSwiftPackageReference "VivaldiAPIClient" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = VivaldiAPIClient;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D02EF2BF2E4D77B200CEFEEC /* VivaldiAPIClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VivaldiAPIClient;
+		};
+		D02EF2CC2E4D7D3C00CEFEEC /* VivaldiDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VivaldiDesignSystem;
+		};
+		D02EF2CF2E4D7D4500CEFEEC /* VivaldiPersistence */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VivaldiPersistence;
+		};
+		D07543742E4DBEFD006875FA /* VivaldiModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VivaldiModels;
+		};
+		D07543772E4DBF0A006875FA /* VivaldiPersistence */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VivaldiPersistence;
+		};
+		D075437A2E4DBF14006875FA /* VivaldiAPIClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VivaldiAPIClient;
+		};
+		D075437D2E4DBF20006875FA /* VivaldiDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VivaldiDesignSystem;
+		};
+		D0D555A02E50058800008D4B /* VivaldiAPIClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VivaldiAPIClient;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D0E34EB02E4D56AC00AB5277 /* Project object */;
+}
