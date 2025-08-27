@@ -299,7 +299,11 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ## Screenshots
 
-*[Add screenshots of your app here]*
+<img width="1170" height="2532" alt="image" src="https://github.com/user-attachments/assets/e4a0d310-b15e-4aec-ab64-50a015ae503b" />
+
+<img width="1170" height="2532" alt="image" src="https://github.com/user-attachments/assets/855cfafd-f0fa-4cb5-86d1-8db21130dfba" />
+
+<img width="1170" height="2532" alt="image" src="https://github.com/user-attachments/assets/011b0aec-c00c-493c-97c4-43c20f4a3e4a" />
 
 ## Roadmap
 
